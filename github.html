@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image1 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 103%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image1 {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.containertext {
+  background-color: darksalmon;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+h2 {
+  margin-left:50px;
+}
+p {
+  margin-left:50px;
+}
+.image { 
+    position: relative; 
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35) ), url('https://media.istockphoto.com/photos/workspace-desk-styled-design-office-supplies-with-cactus-on-pink-picture-id1085559446?k=20&m=1085559446&s=170667a&w=0&h=Yvy8hcn8Hyb51qj_zKnE9BlNfuGZHHIYbH8WasByFeQ=');
+    background-size: cover;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  
+  border-radius: 50%;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+</style>
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="github.html">GitHub</a>
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="image">
+</div>
+<h2 style="text-align:center; font-family:Monaco; font-size: 50px;">GitHub</h2>
+
+<div class="container">
+	<img src="ghprofile.png" class="image1" style="width:370px;height:300px;margin-left: 500px;"></a>
+	<div class="middle">
+		<div class="containertext"><a href="https://github.com/kathyygong" style="color:white;">View GitHub</a></div>
+	</div>
+</div>
+
+<h1 style="font-family: optima; margin-left:50px;">Recent Projects</h1>
+<p style="font-size: 18px;">View my current and past projects below, or access my GitHub here: <a href="https://github.com/kathyygong" style="color: brown;"><u>www.github.com/kathyygong</u></a>.</p>
+<a href="https://github.com/kathyygong/atpvisualization" style="margin-left: 50px;"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/kathyygong/atpvisualization.png" width="460px"></a>
+<a href="https://github.com/kathyygong/atpML"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/kathyygong/atpML.png" width="460px"></a>
+<p><br></p>
+<footer>
+  <p>Connect with me on <a href="https://www.linkedin.com/in/kathygong560" style="color:brown;"><u>LinkedIn</u></a><br>
+  T: (908) 938-4361<br>
+  M: <a href="mailto:kg789@georgetown.edu" style="color: brown;"><u>kg789@georgetown.edu</u></a>
+  </p>
+<a href="https://www.linkedin.com/in/kathygong560" class="fa fa-linkedin"></a>
+<a href="https://www.instagram.com/kkathygong/" class="fa fa-instagram"></a>
+<a href="mailto:kg789@georgetown.edu" class="fa fa-google"></a>
+<a href="mailto:gong.kathy@yahoo.com" class="fa fa-yahoo"></a>
+</footer>
+</body>
+</html>
